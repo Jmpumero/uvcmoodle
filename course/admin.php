@@ -24,6 +24,7 @@
 
 require_once("../config.php");
 
+
 $courseid = required_param('courseid', PARAM_INT);
 
 $PAGE->set_url('/course/admin.php', array('courseid'=>$courseid));
